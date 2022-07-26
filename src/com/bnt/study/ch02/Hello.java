@@ -22,7 +22,7 @@ public class Hello {
 		String basketLink = "www.fdndlfg.com/sdfs";
 		String imgLink = "www.dfogn.com/sfdgvdf";
 		
-		
+		System.out.println(name);
 		
 	}
 }
