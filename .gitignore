@@ -24,6 +24,5 @@ hs_err_pid*
 
 #custom
 .settings/
-.git/
 .project
 .classpath
