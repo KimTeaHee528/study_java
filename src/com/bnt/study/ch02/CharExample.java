@@ -25,7 +25,5 @@ public class CharExample {
 		System.out.println(uniCode1);
 		int uniCode2 = c4;
 		System.out.println(uniCode2);
-		
 	}
-
 }
