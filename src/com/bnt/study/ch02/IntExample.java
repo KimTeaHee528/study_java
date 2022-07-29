@@ -1,6 +1,6 @@
 package com.bnt.study.ch02;
 
-public class intExample {
+public class IntExample {
 
 	public static void main(String[] args) {
 
