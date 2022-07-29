@@ -12,5 +12,4 @@ public class FloatDoubleExample {
 		System.out.println(var2);
 		System.out.println(var3);
 	}
-
 }
