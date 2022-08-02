@@ -46,6 +46,10 @@ public class CastingExample {
 		System.out.println("stringValue2 : " + stringValue2);
 		int intValue3 = Integer.parseInt(stringValue2);
 		System.out.println("intValue3 : " + intValue3);
+		
+		
+		
+		
 	}
 
 }
