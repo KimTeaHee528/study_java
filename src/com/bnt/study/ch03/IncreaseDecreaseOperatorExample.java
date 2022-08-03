@@ -17,11 +17,14 @@ public class IncreaseDecreaseOperatorExample {
 		b--;
 		System.out.println("a = " + a);
 		System.out.println("b = " + b);
-		
+
+		System.out.println("==========================");
 // 대입이 먼저 하고 증가
+		
 		int k = i++;
 		System.out.println("k = " + k);
 		System.out.println("i = " + i);
+		
 // 증가먼저 하고 대입
 		int m = ++j;
 		System.out.println("m = " + m);
