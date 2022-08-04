@@ -51,8 +51,8 @@ public class AritheticOperatorExample {
 		average("도롱뇽",80,70,63,88,78);
 		
 		
-		
-		
+		double aaaa = average2(80,70,63,88,78);
+		System.out.println(aaaa);
 
 	}
 	public static void sum(int a,int b,int c) {
@@ -61,6 +61,11 @@ public class AritheticOperatorExample {
 
 	public static void average(String name, int engleish, int math, int physics, int music, int athletic){
 		System.out.println(name+ "의 평균점수는 " + (double) (engleish + math + physics + music + athletic)/5);
+	}
+
+	public static double average2(int engleish, int math, int physics, int music, int athletic){
+		double bbbb = (double)(engleish + math + physics + music + athletic) /5;
+		return bbbb;
 	}
 	
 	
