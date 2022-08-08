@@ -4,10 +4,10 @@ public class ifExample2 {
 	
 	public static void main(String[] args) {
 
-		total_price(1, 10000);
+		total_price(1, 10);
 		
 	}
-	public static double total_price(int grade, double price) {
+	public static double total_price(int grade, int price) {
 		double totale_price;
 		if(grade == 1) {
 			totale_price = price*1.05;
