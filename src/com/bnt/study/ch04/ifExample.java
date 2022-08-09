@@ -4,8 +4,7 @@ public class ifExample {
 	
 	public static void main(String[] args) {
 		
-		int score = 59;
-		score(score);
+		score(59);
 		
 	}
 	

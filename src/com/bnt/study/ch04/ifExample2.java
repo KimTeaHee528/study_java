@@ -4,51 +4,42 @@ public class ifExample2 {
 	
 	public static void main(String[] args) {
 
-		total_price(1, 10);
-		
+		total_price(grade_string(5), 10);
+
 	}
-	public static double total_price(int grade, int price) {
+	public static String grade_string(int grade_int) {
+		String grade_string = null;
+		if(grade_int == 1) {
+			grade_string = "일반";
+		}else if(grade_int == 2) {
+			grade_string = "브론즈";
+		}else if(grade_int == 3) {
+			grade_string = "실버";
+		}else if(grade_int == 4) {
+			grade_string = "골드";
+		}else if(grade_int == 5) {
+			grade_string = "플래티넘";
+		}else {}
+		return grade_string;
+	}
+	public static double total_price(String grade, int price) {
 		double totale_price;
-		if(grade == 1) {
+		if(grade == "일반") {
 			totale_price = price*1.05;
-			System.out.println("일반"+totale_price);
-		}else if(grade == 2) {
+			System.out.println(grade+", "+totale_price);
+		}else if(grade == "브론즈") {
 			totale_price = price*1.1;
-			System.out.println("브론즈"+totale_price);
-		}else if(grade == 3) {
+			System.out.println(grade+", "+totale_price);
+		}else if(grade == "실버") {
 			totale_price = price*1.15;
-			System.out.println("실버"+totale_price);
-		}else if(grade == 4) {
+			System.out.println(grade+", "+totale_price);
+		}else if(grade == "골드") {
 			totale_price = price*1.2;
-			System.out.println("골드"+totale_price);
+			System.out.println(grade+", "+totale_price);
 		}else {
 			totale_price = price*1.27;
-			System.out.println("플래티넘"+totale_price);
+			System.out.println(grade+", "+totale_price);
 		}
 		return totale_price;
 	}
-	
 }
-
-
-/*
- * 
- * package com.bnt.study.ch04;
- * 
- * public class ifExample2 {
- * 
- * public static void main(String[] args) {
- * 
- * total_price(1, 10000);
- * 
- * } public static double total_price(int grade, double price) { double
- * totale_price; if(grade == 1) { totale_price = price*1.05;
- * System.out.println("일반"+totale_price); }else if(grade == 2) { totale_price =
- * price*1.1; System.out.println("브론즈"+totale_price); }else if(grade == 3) {
- * totale_price = price*1.15; System.out.println("실버"+totale_price); }else
- * if(grade == 4) { totale_price = price*1.2;
- * System.out.println("골드"+totale_price); }else { totale_price = price*1.27;
- * System.out.println("플래티넘"+totale_price); } return totale_price; }
- * 
- * }
- */
