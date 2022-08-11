@@ -34,7 +34,11 @@ public class RandomSum {
 			min1 = random2;
 			max1 = random1;
 		}
+		
+		
 		int resultA = (max1+min1)*(max1-min1+1)/2;
+		
+		
 		System.out.println("random1 : "+ random1);
 		System.out.println("random2 : "+ random2);
 		System.out.println("최소값 : "+ min1);
