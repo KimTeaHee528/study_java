@@ -24,19 +24,6 @@ public class RandomSum {
 		
 
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		System.out.println("=============검산=================");
 		int min1;
 		int max1;

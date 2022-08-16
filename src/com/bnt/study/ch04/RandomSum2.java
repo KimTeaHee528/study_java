@@ -24,18 +24,6 @@ public class RandomSum2 {
 		System.out.println(minA + "부터 " + maxA + "까지의 합은 : " + result);
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		int resultA = (maxA+minA)*(maxA-minA+1)/2;
 		System.out.println("확인 \n" + resultA);
 	}
