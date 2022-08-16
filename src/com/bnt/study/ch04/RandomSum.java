@@ -9,7 +9,6 @@ public class RandomSum {
 		int random1 = (int) ( (Math.random() * (max-min)) + min );
 		int random2 = (int) ( (Math.random() * (max-min)) + min );
 		int result=0;
-		
 		if(random1>random2) {
 			for(int i=random2 ; i <= random1 ; i++) {
 				result += i;
@@ -24,6 +23,20 @@ public class RandomSum {
 		System.out.println(random1 + "," + random2+" >>> "+result);
 		
 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		System.out.println("=============검산=================");
 		int min1;
 		int max1;
