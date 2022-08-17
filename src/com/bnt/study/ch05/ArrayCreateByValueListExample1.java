@@ -12,7 +12,7 @@ public class ArrayCreateByValueListExample1 {
 		System.out.println("===누구===");
 		for(int i=0; i<=2; i++) {
 			System.out.println(name[i]);
-		}
+		} 
 		
 		System.out.println("===점수평균===");
 		int chemistryLength = scoreChemistry.length;
