@@ -26,7 +26,7 @@ public class ArrayCreateByValueListExample1 {
 		
 		System.out.println(avg(scoreChemistry,5));
 
-	}
+	} 
 	public static double avg(int[] score, int aa) {
 		int sum=0;
 		for(int i=0; i<score.length; i++) {
