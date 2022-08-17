@@ -6,17 +6,19 @@ public class ForExample {
 		
 		int width = 10;
 		int height = 5;
-		for(int i = 0; i<height; i++) {
-			for(int j=0;j<width;j++) {
+		
+		
+		for(int i=0; i<height; i++) {
+			for(int j=0; j<width; j++) {
 				System.out.print("*");
 			}
 			System.out.println("");
 		}
 		System.out.println("");
+
 		
 
-
-		for(int i = 0; i < height; i++) {
+		for(int i=0; i<height; i++) {
 			System.out.print("*");
 			for(int j = 0; j < width-2; j++) {
 				if(i == 0 || i == (height-1)) {
@@ -29,6 +31,7 @@ public class ForExample {
 		}
 		System.out.println("");
 
+		
 
 		int z = height-1;
 		int k;
@@ -48,6 +51,7 @@ public class ForExample {
 		System.out.println("");
 
 		
+		
 		for(int i = 1; i <= 11; i++) {
 			for(int j = 1; j < i; j++) {
 				if(j%2==0 && i==11 && j!=10) {
@@ -60,21 +64,22 @@ public class ForExample {
 		}
 		
 		
-
-
-		        int N = (int)(Math.random()*9+1);
-		        System.out.println(N);
-		        for(int i=0;i<=N;i++){
-		            for(int j=N; j>0;j--) {
-		            	if(j<=i) {
-		            		System.out.print("*");
-		            	}else {
-		            		System.out.print(" ");
-		            	}
-		            }
-		            System.out.println("");
-		        }
-		        
+//
+//		System.out.println("==============역방향================");
+//
+//		        int N = (int)(Math.random()*4+1);
+//		        System.out.print("랜덤값: "+N);
+//		        for(int i=0;i<=N;i++){
+//		            for(int j=N; j>0;j--) {
+//		            	if(j<=i) {
+//		            		System.out.print("*");
+//		            	}else {
+//		            		System.out.print(" ");
+//		            	}
+//		            }
+//		            System.out.println("");
+//		        }
+//		        
 
 
 		
