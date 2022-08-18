@@ -48,8 +48,8 @@ public class asdfasd {
 			random = (int)(Math.random()*45+1);
 			for(int j=0; j<=i;j++) {
 				if(random==asdf[j]) {
-					i--;
-				}else {
+					i--;break;
+				}else {asdf[i]=random;
 				}
 			}
 		}
