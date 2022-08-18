@@ -26,7 +26,6 @@ public class EnumWeekExample {
 		xyz = Week.THURSDAY;
 		int result1 = abc.compareTo(xyz); //abc가 xyz보다 3작다
 		int result2 = xyz.compareTo(abc); //xyz가 abc보다 3크다
-
 		System.out.println(result1);
 		System.out.println(result2);
 		

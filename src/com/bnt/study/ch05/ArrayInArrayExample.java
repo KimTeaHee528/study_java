@@ -7,6 +7,8 @@ public class ArrayInArrayExample {
 		String[] name = {"장원영","장동건","고소영","박태환","싸이"};
 		String[] subject = {"국어","영어","수학"};
 		
+		
+		
 		System.out.println("====개인별 평균=======");
 		for(int i = 0; i<tr.length; i++) {
 			int sum = 0;
@@ -27,7 +29,6 @@ public class ArrayInArrayExample {
 
 		
 		System.out.println("====한번에 평균=======");
-		
 		int[] pSum= {0,0,0,0,0};
 		int[] sSum= {0,0,0};
 		for(int i=0; i<tr.length; i++) {
@@ -36,13 +37,11 @@ public class ArrayInArrayExample {
 				sSum[j] += tr[i][j];
 			}
 		}
-		System.out.println("학생별====");
 		for(int i=0; i<pSum.length; i++) {
-			System.out.println(name[i]+"의 평균 : "+(double)pSum[i]/sSum.length);
+			System.out.println("학생" + name[i]+"의 평균 : "+(double)pSum[i]/sSum.length);
 		}
-		System.out.println("과목별====");
 		for(int i=0; i<sSum.length; i++) {
-			System.out.println(subject[i]+" 평균 : "+(double)sSum[i]/pSum.length);
+			System.out.println(subject[i]+"과목 평균 : "+(double)sSum[i]/pSum.length);
 		}
 	}
 }
