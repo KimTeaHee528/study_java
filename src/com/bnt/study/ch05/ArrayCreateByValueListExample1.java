@@ -14,7 +14,7 @@ public class ArrayCreateByValueListExample1 {
 			System.out.println(name[i]);
 		} 
 		
-		System.out.println("===점수평균===");
+		System.out.println("===점수평균1===");
 		int chemistryLength = scoreChemistry.length;
 		int totalChemistry=0;
 		for(int i=0; i<chemistryLength; i++) {
@@ -24,7 +24,9 @@ public class ArrayCreateByValueListExample1 {
 		System.out.println("평균" + (double)totalChemistry/chemistryLength);
 		
 		
-		System.out.println(avg(scoreChemistry,5));
+		
+		System.out.println("============점수평균1===========");
+		System.out.println(avg(scoreChemistry,3));
 
 	} 
 	public static double avg(int[] score, int aa) {
@@ -35,14 +37,17 @@ public class ArrayCreateByValueListExample1 {
 		double avg = (double)sum/score.length;
 		
 		if(aa==3) {
+			System.out.println("평균");
 			return avg;
 		}else if(aa==2){
+			System.out.println("합");
 			return sum;
 		}else if(aa==1) {
+			System.out.println("갯수");
 			return score.length;
 		}else {
 			System.out.println("1=길이 / 2=합 / 3=평균");
-			return -1;
+			return 444444444;
 		}
 	}
 }
