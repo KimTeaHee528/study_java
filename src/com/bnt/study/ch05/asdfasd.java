@@ -11,7 +11,7 @@ public class asdfasd {
 //		}
 //		// 일반번호 6개 선택
 //		for(int i=0; i<6; i++) {
-//			aa = (int)(Math.random()*45.9+1);
+//			aa = (int)(Math.random()*45+1);
 //			if(num[aa]==1 || num[aa]==2) {
 //				i--;
 //			}else {
@@ -20,7 +20,7 @@ public class asdfasd {
 //		}
 //		// 보너스번호 1개 선택
 //		for(int i=0; i<1; i++) {
-//			aa = (int)(Math.random()*45.9+1);
+//			aa = (int)(Math.random()*45+1);
 //			if(num[aa]==1 || num[aa]==2) {
 //				i--;
 //			}else {
