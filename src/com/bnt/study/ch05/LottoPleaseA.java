@@ -2,7 +2,7 @@ package com.bnt.study.ch05;
 
 import java.util.Arrays;
 
-public class LottoPlease {
+public class LottoPleaseA {
 
 	public static void main(String[] args) {
 		double min = 1.0;

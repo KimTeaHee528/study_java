@@ -1075,7 +1075,7 @@ public class LottoPlease2 {
 			num[i] = 0;
 		}
 		for(int i=0; i<6; i++) {
-			int random = (int)(Math.random()*12+1);
+			int random = (int)(Math.random()*45+1);
 			if(num[random]!=0) {
 				i--;
 			}else {
