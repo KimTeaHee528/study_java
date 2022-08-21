@@ -33,7 +33,7 @@
 ////			randomArray[3] = 6;
 ////			randomArray[4] = 8;
 ////			randomArray[5] = 11;
-//			
+////			
 //			
 //			// 오름차순 정렬
 //			 Arrays.sort(randomArray); 

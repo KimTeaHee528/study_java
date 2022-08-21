@@ -29,7 +29,7 @@ public class LottoPlease {
 				out++;
 			}else {}
 		}
-		//문자열로 변환 & 문자열 출력
+		//문자열로 변환
         String str = Arrays.toString(num2);
         //이전회차 중복확인
         for(int i=0; i<1028; i++) {
