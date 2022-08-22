@@ -6,6 +6,7 @@ public class CarExample {
 
 		Car c1;
 		c1 = new Car();
-		System.out.println(c1.company);
+		c1.speed = 200;
+		System.out.println(c1.company + c1.speed);
 	}
 }
