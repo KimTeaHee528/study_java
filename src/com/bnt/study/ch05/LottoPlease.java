@@ -10,7 +10,7 @@ public class LottoPlease {
 		int[] num=new int[46];
 		//3연속 확인
 		for(int j =0; j<1; j++) {
-			//6개 뽑기
+			//6개 뽑기 
 			six_num(num);
 			for(int i=1; i<45; i++) {
 				if(num[i-1]+num[i]+num[i+1]==3) {
