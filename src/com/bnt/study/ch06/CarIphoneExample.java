@@ -1,6 +1,6 @@
 package com.bnt.study.ch06;
 
-public class CarExample {
+public class CarIphoneExample {
 	public static void main(String[] args) {
 		
 		Car car1 = new Car();		
