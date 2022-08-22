@@ -8,5 +8,4 @@ public class CarExample {
 		c1 = new Car();
 		System.out.println(c1.company);
 	}
-
 }
