@@ -2,11 +2,9 @@ package com.bnt.study.ch06;
 
 public class Car {
 
-	String company = "현대자동차";
-	String model = "그랜져";
-	String color = "검정";
-	int maxSpeed = 350;
-	int speed;
+	int a = 1;
+	String name = "김태희";
+	String[] name2 = {"김태희", "고소영"};
 	
 	
 }
