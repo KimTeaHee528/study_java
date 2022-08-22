@@ -6,7 +6,7 @@ public class CarExample {
 
 		Car c1;
 		c1 = new Car();
-		System.out.println(c1);
+		System.out.println(c1.company);
 	}
 
 }
