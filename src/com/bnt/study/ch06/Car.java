@@ -19,7 +19,7 @@ public class Car {
 		return this.name3 = name;
 	}
 	public void pr() {
-		System.out.println(name3);
+		System.out.println(name);
 	}
 	
 }
