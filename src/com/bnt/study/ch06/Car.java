@@ -16,10 +16,17 @@ public class Car {
 		return this.name = name;
 	}
 	public String setname2(String name) {
-		return this.name3 = name;
+		return this.setName3(name);
 	}
 	public void pr() {
 		System.out.println(name);
+	}
+	public String getName3() {
+		return name3;
+	}
+	public String setName3(String name3) {
+		this.name3 = name3;
+		return name3;
 	}
 	
 }
