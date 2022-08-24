@@ -4,7 +4,9 @@ public class Korean {
 	String name;
 	String ssn;
 	String na;
+	static String nationality = "대한민국";
 	int age;
+	static int aa = 0;
 	Korean(String name, String ssn){
 		if(ssn.length()==14) {
 			this.name = name;
@@ -20,4 +22,13 @@ public class Korean {
 	}
 	Korean(){
 	}
+	static int staticTest(int a) {
+		aa = a +10;
+		return aa;
+	}
+	public void tttt() {
+		Arithmetic.sstest();
+	}
+	
+	
 }

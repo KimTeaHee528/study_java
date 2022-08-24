@@ -39,4 +39,8 @@ public class Arithmetic {
 			System.out.println(title[i]+": "+result[i]);
 		}
 	}
+	
+	static void sstest() {
+		System.out.println("sdafgvaresdgbvrd");
+	}
 }
