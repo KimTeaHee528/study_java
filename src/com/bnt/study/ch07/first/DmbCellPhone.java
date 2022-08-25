@@ -1,26 +1,27 @@
 package com.bnt.study.ch07.first;
 
 public class DmbCellPhone extends CellPhone {
-	String model;
-	String color;
 	int channel;
-	
-	DmbCellPhone(String model, String color, int channel){
+
+	DmbCellPhone() {
+	}
+
+	DmbCellPhone(String model, String color, int channel) {
 		this.model = model;
 		this.color = color;
 		this.channel = channel;
 	}
-	DmbCellPhone(){
-	}
-	
+
 	void turnOnDmb() {
-		System.out.println("채널 " + channel + "번 DMB 방송 수신을 시작합니다.");
-	}	
-	void changeChannelDmb(int channel) {
-		this.channel = channel;
-		System.out.println("채널 " + channel + "번으로 바꿉니다.");
-	}	
+		System.out.println(channel + "번 채널 수신 시작");
+	};
+
 	void turnOffDmb() {
-		System.out.println("DMB 방송 수신을 멈춥니다.");
-	}
+		System.out.println("DMB 종료");
+	};
+
+	void changeChannelDmb(int channel) {
+		System.out.println(this.channel + "번 채널을 " + channel + "번 채널로 변경");
+		this.channel = channel;
+	};
 }
