@@ -1,6 +1,8 @@
 package com.bnt.study.ch07.first;
 
 public class DmbCellPhone extends CellPhone {
+	String model;
+	String color;
 	int channel;
 	
 	DmbCellPhone(String model, String color, int channel){
@@ -8,7 +10,8 @@ public class DmbCellPhone extends CellPhone {
 		this.color = color;
 		this.channel = channel;
 	}
-	
+	DmbCellPhone(){
+	}
 	
 	void turnOnDmb() {
 		System.out.println("채널 " + channel + "번 DMB 방송 수신을 시작합니다.");
