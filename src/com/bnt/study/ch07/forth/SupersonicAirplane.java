@@ -12,6 +12,4 @@ public class SupersonicAirplane extends Airplane {
 			super.fly();
 		}
 	}
-	
-	
 }
