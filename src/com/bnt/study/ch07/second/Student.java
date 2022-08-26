@@ -14,3 +14,4 @@ public class Student extends People {
 		this.studentNo = studentNo;
 	}
 }
+ 
